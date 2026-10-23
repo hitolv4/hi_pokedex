@@ -6,6 +6,8 @@ allowBuilds:
   '@nestjs/core': false
   '@swc/core': false
   esbuild: false
+  '@scarf/scarf': false
+  mongodb-memory-server: true
 minimumReleaseAgeExclude:
   - '@nx/devkit@24.0.0'
   - '@nx/js@24.0.0'
